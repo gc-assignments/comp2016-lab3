@@ -1,0 +1,19 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "lab 3 for advanced server side scripting",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gc-assignments/comp2016-lab3.git"
+  },
+  "author": "Slevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gc-assignments/comp2016-lab3/issues"
+  },
+  "homepage": "https://github.com/gc-assignments/comp2016-lab3#readme"
+}
