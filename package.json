@@ -4,6 +4,7 @@
   "description": "lab 3 for advanced server side scripting",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gc-assignments/comp2016-lab3/issues"
   },
-  "homepage": "https://github.com/gc-assignments/comp2016-lab3#readme"
+  "homepage": "https://github.com/gc-assignments/comp2016-lab3#readme",
+  "dependencies": {
+    "connect": "^3.4.1"
+  }
 }
