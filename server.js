@@ -1,5 +1,4 @@
 var connect = require('connect');
-var http    = require('http');
 var url     = require('url');
 var app     = connect();
 
@@ -25,4 +24,4 @@ app.use('/lab3', function(req, res) {
   res.end(output(query.method, query.x, query.y));
 });
 
-http.createServer(app).listen(3000);
+app.listen(3000);
